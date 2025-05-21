@@ -4,7 +4,7 @@
     </div>
     <div class="section">
       <div>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf8RAYSfIHdRf7qWZ-2Bw2syDLJli71FJarJhunuXbNjz0s7A/viewform?embedded=true" width="550" :height="930" frameborder="0" marginheight="0" marginwidth="0" class="rsvp">Loading…</iframe>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf8RAYSfIHdRf7qWZ-2Bw2syDLJli71FJarJhunuXbNjz0s7A/viewform?embedded=true" width="390" height="950" frameborder="0" marginheight="0" marginwidth="0" class="rsvp">Loading…</iframe>
       </div>
     </div>
   </div>
