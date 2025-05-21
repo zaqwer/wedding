@@ -4,7 +4,7 @@
       <p>Ebi & Bugi</p>
     </div>
     <div class="action" @click="handleClick">
-      <p>If you wanted</p>
+      <!-- <p>Wanna send wedding gift?</p> -->
     </div>
   </div>
 </template>
