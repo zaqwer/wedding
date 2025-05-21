@@ -4,14 +4,11 @@
     </div>
     <div class="section">
       <div>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf8RAYSfIHdRf7qWZ-2Bw2syDLJli71FJarJhunuXbNjz0s7A/viewform?embedded=true" width="590" height="845" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf8RAYSfIHdRf7qWZ-2Bw2syDLJli71FJarJhunuXbNjz0s7A/viewform?embedded=true" width="550" :height="930" frameborder="0" marginheight="0" marginwidth="0" class="rsvp">Loading…</iframe>
       </div>
     </div>
   </div>
 </template>
-
-<script setup lang="ts">
-</script>
 
 <style scoped lang="scss">
 .page {
@@ -23,11 +20,11 @@
   justify-content: center;
   align-items: center;
   text-align: left;
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   padding: 2rem;
   position: relative;
-  scroll-snap-align: start;
+  scroll-snap-stop: unset;
 }
 
 .section {
@@ -39,5 +36,12 @@
   background-image: url("/assets/rsvp_background.png");
   background-position: center;
   background-size: contain;
+}
+
+@media (max-width: 600px) {
+  .page {
+    height: 100%;
+    width: 100vw;
+  }
 }
 </style>

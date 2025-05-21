@@ -26,6 +26,7 @@ const route = useRoute()
   font-size: 0.95rem;
   background-color: transparent;
   color: #F7F8F6;
+  mix-blend-mode: difference;
 }
 
 a {
@@ -59,6 +60,15 @@ a.active {
   border-bottom: 2px solid white;
 }
 
+
+
+@media (max-width: 992px) {
+  .menu {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 @media (max-width: 600px) {
   .menu {
     padding: 1.5rem 1rem;
@@ -67,7 +77,6 @@ a.active {
     justify-content: flex-start;
     flex-direction: column;
     gap: 0.5rem;
-    position: relative;
     top: 0px;
     right: 0px;
   }

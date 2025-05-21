@@ -10,7 +10,7 @@
         <img src="/assets/bride.jpg" alt="Hello">
       </div>
       <div class="end">
-        Loves upbeat music, loves crime drama and crime documentary. Bugi watched all crime things on netflix.
+        Crime junkie with a love for upbeat music and dancing in the kitchen. If it's a Netflix crime doc, she's already seen it—and probably solved it too.
       </div>
     </div>
   </div>
@@ -71,5 +71,33 @@
   max-width: 300px;
   font-size: 0.95rem;
   line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+  .page {
+    height: 100%;
+    width: 100vw;
+  }
+  .section {
+    flex-direction: column;
+  }
+
+  .left {
+    align-self: flex-end;
+    h2 {
+      font-size: 2rem;
+    }
+  }
+
+  .mid {
+    align-self: center;
+    img {
+      width: 400px;
+    }
+  }
+
+  .end {
+    align-self: center;
+  }
 }
 </style>
