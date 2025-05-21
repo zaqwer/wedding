@@ -10,7 +10,7 @@
         <img src="/assets/groom.jpg" alt="Hello">
       </div>
       <div class="end">
-        Software engineer, loves electro music and born in UB. Ebi doesn't usually fall in love, but when he does, he does it in hard mode.
+        Software engineer, powered by pepsi and electro music. Doesn't fall in love often—but when he does, it's like installing feelings on hard mode with zero bug fixes.
       </div>
     </div>
   </div>
@@ -71,5 +71,33 @@
   max-width: 300px;
   font-size: 0.95rem;
   line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+  .page {
+    height: 100%;
+    width: 100vw;
+  }
+  .section {
+    flex-direction: column;
+  }
+
+  .left {
+    align-self: flex-end;
+    h2 {
+      font-size: 2rem;
+    }
+  }
+
+  .mid {
+    align-self: center;
+    img {
+      width: 400px;
+    }
+  }
+
+  .end {
+    align-self: center;
+  }
 }
 </style>
