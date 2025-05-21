@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <HeaderMenu />
     <HelloSection />
     <GroomSection />
@@ -21,5 +21,12 @@
 * {
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
 }
+
+/* .container {
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+} */
 </style>

@@ -12,27 +12,27 @@
       <div class="end">
         <div>
           <span>
-            Date
+            Date: 
           </span>
-          <span>
+          <span class="context">
             May 29
           </span>
         </div>
         <div>
           <span>
-            Time
+            Time: 
           </span>
-          <span>
+          <span class="context">
             18:00
           </span>
         </div>
         <div>
           <span>
-            Location
+            Location: 
           </span>
-          <span>
+          <a href="https://maps.app.goo.gl/QDGLVY4BCrkJAYRr6" target="_blank" class="context">
             One Event Hall
-          </span>
+          </a>
         </div>
       </div>
     </div>
@@ -94,5 +94,65 @@
   max-width: 300px;
   font-size: 0.95rem;
   line-height: 1.6;
+  span {
+    font-size: 1rem;
+  }
+  .context {
+    font-weight: bold;
+  }
+
+  a {
+    font-size: 1rem;
+    color: #F7F8F6;
+    text-decoration: none;
+    border-bottom: 2px solid white;
+  }
+
+  a:link {
+    color: #F7F8F6;
+    border-bottom: 2px solid white;
+  }
+
+  a:visited {
+    color: #F7F8F6;
+    text-decoration: none;
+    border-bottom: 2px solid white;
+  }
+
+  a:hover {
+    color: #F7F8F6;
+    background-color: transparent;
+    text-decoration: none;
+    opacity: 1;
+    border-bottom: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .page {
+    height: 100%;
+    width: 100vw;
+  }
+  .section {
+    flex-direction: column;
+  }
+
+  .left {
+    align-self: flex-end;
+    h2 {
+      font-size: 2rem;
+    }
+  }
+
+  .mid {
+    align-self: center;
+    img {
+      width: 400px;
+    }
+  }
+
+  .end {
+    align-self: center;
+  }
 }
 </style>

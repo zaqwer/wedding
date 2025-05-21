@@ -10,7 +10,7 @@
         <img src="/assets/hello.jpg" alt="Hello">
       </div>
       <div class="end">
-        Welcome to our wedding website, where you'll find all the answers to your burning questions.
+        Hey! Welcome to our wedding website! <br> Here's where you'll find all the fun details about our big day and a little bit about us. Check it out and get ready to celebrate!
       </div>
     </div>
   </div>
@@ -47,7 +47,7 @@
   background-size: contain;
 }
 
-.left{
+.left {
   align-self: flex-start;
   width: 200px;
   h2 {
@@ -71,5 +71,33 @@
   max-width: 300px;
   font-size: 0.95rem;
   line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+  .page {
+    height: 100%;
+    width: 100vw;
+  }
+  .section {
+    flex-direction: column;
+  }
+
+  .left {
+    align-self: flex-end;
+    h2 {
+      font-size: 2rem;
+    }
+  }
+
+  .mid {
+    align-self: center;
+    img {
+      width: 400px;
+    }
+  }
+
+  .end {
+    align-self: center;
+  }
 }
 </style>
